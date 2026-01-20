@@ -23,6 +23,7 @@ The dataset can be found at the following link:
 [OpenTriviaQA Categories](https://github.com/uberspot/OpenTriviaQA/tree/master/categories)
 
 You can use this dataset to add or update trivia questions.
+This link also has more trivia categories avialble in the same format! 
 
 # Requirements
 
@@ -40,7 +41,7 @@ pip install pillow
 
 # How to Run
 
-1. Ensure you have Python 3.14 installed.
+1. Ensure you have Python 3.11 installed.
 2. Clone or download the repository.
 3. Make sure the following files are present in the project folder:
    - `TriviaGame.py`
@@ -56,9 +57,8 @@ python TriviaGame.py
 5. The game opens in fullscreen mode. Enter your name, click **Start Game**, and begin answering trivia questions.
 6. After 60 seconds, the final scoreboard is displayed showing your score and the Top 5 players.
 
-# Notes
+# Future Ideas
 
-- Player names must be unique and between 5–15 characters.
-- Scores are stored in `scoreboard.txt` and automatically updated.
-- The game window is fullscreen but can be closed at any time using the **Exit** button.
-- The game uses **movie-themed images**, which should be in the same directory as the program.
+Currently, this trivia game focuses on movies. However, the OpenTriviaQA repository provides many other categories in the same format, so adapting the game to a different topic would be straightforward. This allows for easy expansion and reproducibility with minimal changes to the code.
+
+
