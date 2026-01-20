@@ -1,5 +1,0 @@
-Column Descriptors:
-Question: The trivia question text.
-Answer: The correct answer, which is in a true/false format.
-Category: The category under which the question falls (e.g., Science, History, Entertainment).
-Difficulty Level: The difficulty rating of the question (e.g., Easy, Medium, Hard).
