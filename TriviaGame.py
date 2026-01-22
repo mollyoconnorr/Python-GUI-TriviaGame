@@ -109,6 +109,7 @@ class TriviaGame:
                 "Enter your name below and click Start Game!"
             ),
             font=("Helvetica", 18),
+            fg="black",
             justify="center",
             wraplength=700,  # wrap text
             pady=20,
@@ -259,6 +260,7 @@ class TriviaGame:
             font=("Helvetica", 18, "bold"),
             wraplength=750,
             justify="center",
+            fg="black",
             bg=self.ui_frame["bg"]
         )
         self.question_label.pack(pady=30)
@@ -277,6 +279,7 @@ class TriviaGame:
                 text=f"{letter}: {answer_text}",
                 width=1000,
                 height=70,
+                fg="black",
                 font=("Helvetica", 16),
                 padx=20, pady=20,
                 bg=self.ui_frame["bg"]
